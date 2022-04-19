@@ -1,0 +1,65 @@
+.hero {
+    /* background: #2193b0; */
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+
+.efecto {
+    background-image: linear-gradient(to right,  rgb(255, 255, 255) 50%, transparent 50%);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: right;
+    transition: background-position .3s ease;
+} 
+
+.efecto:hover {
+    background-position: left;
+    color: #6a777c; 
+    /* color: #000; */
+    font-weight: bold;
+}
+
+.animacion {
+    animation-name: crearAnimacion;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+}
+
+@keyframes crearAnimacion {
+    0% {
+        transform: translateX(-170%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+
+
+.animacionImg {
+    animation-name: crearAnimacionImg;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+}
+
+@keyframes crearAnimacionImg {
+    0% {
+        transform: translateX(50%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+} 
+
+
+.degradado {
+    background: linear-gradient(to right, #57bee0, #00ffe1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+

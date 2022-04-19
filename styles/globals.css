@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Poppins:wght@300;400;500&display=swap');
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
@@ -15,6 +15,19 @@ html {
 body {
     font-size: 2rem;
     line-height: 1.5;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    /* background: #6dd5ed; */
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #57bee0; 
+    /* background: rgba(255, 255, 255, 0.8); */
+    border-radius: 25px;
 }
 
 img {
@@ -26,7 +39,7 @@ button {
 }
 
 [class*='contenedor'] {
-    max-width: 120rem;
+    max-width: 110rem;
     margin: 0 auto;
     width: 95%;
 }
