@@ -21,6 +21,10 @@ img {
     max-width: 100%;
 }
 
+button {
+    outline: none;
+}
+
 [class*='contenedor'] {
     max-width: 120rem;
     margin: 0 auto;

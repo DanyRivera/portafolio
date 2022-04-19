@@ -1,0 +1,38 @@
+.mostrarAnimacion {
+    animation-name: mostrarMenu;
+    animation-duration: .3s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    display: block;
+}
+
+@keyframes mostrarMenu {
+
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.ocultarAnimacion {
+    animation-name: ocultarMenu;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+}
+
+@keyframes ocultarMenu {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
