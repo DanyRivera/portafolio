@@ -7,7 +7,7 @@ import styles from "../styles/Projects.module.css";
 const Project = ({ img, nombre, tailwind, react, next, gitHub, link }) => {
     return (
 
-        <div className="card mx-auto px-6 mb-16 ">
+        <div className="card mx-auto px-6 mb-16 shadow-2xl">
 
             <div className="pt-10 imagen">
                 <Image layout="responsive" width={250} height={150} src={img} alt="Img" />
@@ -93,18 +93,22 @@ const Project = ({ img, nombre, tailwind, react, next, gitHub, link }) => {
 
 
                 <Link href={gitHub} passHref >
-                    <button
+                    <a
+                        target="_blank"
+                        ref="noreferrer"
                         className={`${styles.efecto1} flex gap-5 items-center justify-center px-10 border text-tertiary py-4 w-full font-poppins tracking-wide rounded-lg mb-5`}
                     >
                         <FontAwesomeIcon className="w-10" icon={faGithub} />
                         View Code
-                    </button>
+                    </a>
                 </Link>
 
                 <Link href={link} >
-                    <button
-                        className={`${styles.efecto2} bg-primary py-4 px-10 w-full text-tertiary font-poppins tracking-wider rounded-lg mb-3 border`}
-                    >View Demo</button>
+                    <a
+                        target="_blank"
+                        ref="noreferrer"
+                        className={`${styles.efecto2} bg-primary py-4 block text-center px-10 w-full text-tertiary font-poppins tracking-wider rounded-lg mb-3 border`}
+                    >View Demo</a>
                 </Link>
 
             </div>

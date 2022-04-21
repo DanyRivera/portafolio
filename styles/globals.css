@@ -47,7 +47,7 @@ button {
 .card {
     border-top-left-radius: 50px;
     border-bottom-right-radius: 10px;
-    box-shadow: rgb(17 17 26 / 10%) 0px 4px 16px, rgb(17 17 26 / 5%) 0px 8px 32px;
+    /* box-shadow: rgb(17 17 26 / 10%) 0px 4px 16px, rgb(17 17 26 / 5%) 0px 8px 32px; */
 }
 
 .imagen img {
@@ -61,6 +61,6 @@ button {
 
         /* background-clip: text; */
         -webkit-text-fill-color: transparent; 
-        @apply text-center pb-24 text-6xl font-bold font-inter bg-clip-text
+        @apply text-center pb-24 pt-16 text-6xl font-bold font-inter bg-clip-text
     }
 }

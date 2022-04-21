@@ -2,6 +2,7 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 import ImagenHeader from "../public/img/header.svg"
 import styles from "../styles/Home.module.css";
 
@@ -11,7 +12,7 @@ export default function Home() {
       pagina="Home"
     >
 
-      <div className={`${styles.hero} relative h-screen w-full py-40`}>
+      <div className={`${styles.hero} relative h-screen w-full py-32`}>
 
         <div className="h-screen px-20 md:contenedor md:grid md:grid-cols-2 md:gap-60 md:mt-44 ">
 
@@ -45,6 +46,8 @@ export default function Home() {
       <Skills />
 
       <Projects />
+
+      <Contact />
 
     </Layout>
   )

@@ -78,7 +78,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className={`${mostrarNav && `${styles.mostrarBarra} bg-tertiary text-secondary shadow-2xl`} ${styles.nav} text-tertiary absolute hidden md:flex py-12 justify-between items-center z-10 w-full px-64`}>
+      <div className={`${mostrarNav && `${styles.mostrarBarra} bg-tertiary text-secondary shadow-2xl`} ${styles.nav} text-tertiary absolute hidden md:flex py-10 justify-between items-center z-10 w-full px-64`}>
 
         <div>
           <p className="font-poppins font-medium text-[20px] cursor-pointer">Dany Rivera</p>
