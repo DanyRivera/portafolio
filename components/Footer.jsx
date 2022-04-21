@@ -1,10 +1,11 @@
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faInstagram, faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
   return (
 
-    <footer className="bg-primary px-8 py-16 text-tertiary">
+    <footer className="bg-primary px-8 py-20 text-tertiary">
 
       <div className="contenedor font-poppins md:grid md:grid-cols-3 items-center">
 
@@ -14,9 +15,11 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-10 mb-14 md:flex-row">
-          <p className="text-[17px]">Projects</p>
-          <p className="text-[17px]">About</p>
-          <p className="text-[17px]">Contact</p>
+          <p className="text-[17px] cursor-pointer">Projects</p>
+          <p className="text-[17px] cursor-pointer">About</p>
+          <Link href="/contact">
+            <p className="text-[17px] cursor-pointer">Contact</p>
+          </Link>
         </div>
 
         <nav className="flex justify-between px-16 mb-16 ">
@@ -28,7 +31,7 @@ const Footer = () => {
       </div>
 
       <div className="text-center">
-        <p className="text-[16px]">&copy; DanyRivera. All rigth reserved</p>
+        <p className="text-[16px]">Created 100% By Dany Rivera | &copy; 2022 All rights reserved.</p>
       </div>
 
     </footer>

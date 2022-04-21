@@ -8,7 +8,10 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
 }
-*,*:before, *:after {
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
@@ -25,7 +28,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #57bee0; 
+    background: #57bee0;
     /* background: rgba(255, 255, 255, 0.8); */
     border-radius: 25px;
 }
@@ -54,13 +57,19 @@ button {
     border-top-left-radius: 20px;
 }
 
+.degradado {
+    background: linear-gradient(to right, #57bee0 10%, #00ffe1 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @layer components {
     .heading {
         /* background: linear-gradient(to right, #2193b0 35%, #00ffe1 60%); */
         background: linear-gradient(to right, #57bee0 45%, #00ffe1 55%);
 
         /* background-clip: text; */
-        -webkit-text-fill-color: transparent; 
+        -webkit-text-fill-color: transparent;
         @apply text-center pb-24 pt-16 text-6xl font-bold font-inter bg-clip-text
     }
 }

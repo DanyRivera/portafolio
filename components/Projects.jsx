@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Project from "./Project";
 import netflixClonImg from "../public/img/netflix_clon.png";
 import guitarlaClonImg from "../public/img/guitarla_clon.png";
@@ -45,9 +46,13 @@ const Projects = () => {
             </div>
 
             <div className="mb-7 flex justify-center md:justify-end">
-                <button
-                    className="border-secondary border py-5 px-12 text-secondary font-poppins font-medium rounded-lg mt-7 hover:bg-[#00000013] hover:border-[#0000] transition-all "
-                >View More</button>
+                <Link
+                    href="/projects"
+                >
+                    <button
+                        className="border-secondary border py-5 px-12 text-secondary font-poppins font-medium rounded-lg mt-7 hover:bg-[#00000013] hover:border-[#0000] transition-all "
+                    >View More</button>
+                </Link>
             </div>
 
         </main>
