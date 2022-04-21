@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Layout from "../components/Layout";
 import Skills from "../components/Skills";
+import Projects from "../components/Projects";
 import ImagenHeader from "../public/img/header.svg"
 import styles from "../styles/Home.module.css";
 
@@ -42,6 +43,8 @@ export default function Home() {
       </div>
 
       <Skills />
+
+      <Projects />
 
     </Layout>
   )

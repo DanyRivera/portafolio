@@ -43,3 +43,24 @@ button {
     margin: 0 auto;
     width: 95%;
 }
+
+.card {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgb(17 17 26 / 10%) 0px 4px 16px, rgb(17 17 26 / 5%) 0px 8px 32px;
+}
+
+.imagen img {
+    border-top-left-radius: 20px;
+}
+
+@layer components {
+    .heading {
+        /* background: linear-gradient(to right, #2193b0 35%, #00ffe1 60%); */
+        background: linear-gradient(to right, #57bee0 45%, #00ffe1 55%);
+
+        /* background-clip: text; */
+        -webkit-text-fill-color: transparent; 
+        @apply text-center pb-24 text-6xl font-bold font-inter bg-clip-text
+    }
+}

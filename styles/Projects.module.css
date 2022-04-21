@@ -1,0 +1,29 @@
+.efecto1 {
+    background-image: linear-gradient(to right,  rgb(255, 255, 255) 50%, rgb(0, 0, 0) 50%);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: right;
+    transition: background-position .3s ease;
+} 
+
+.efecto1:hover {
+    background-position: left;
+    color: #6a777c; 
+    font-weight: bold;
+    border: solid 1px #6a7770;
+}
+
+.efecto2 {
+    background-image: linear-gradient(to right,  rgb(255, 255, 255) 50%, #57bee0 50%);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: right;
+    transition: background-position .3s ease;
+} 
+
+.efecto2:hover {
+    background-position: left;
+    color: #57bee0; 
+    font-weight: bold;
+    border: solid 1px #57bee0;
+}

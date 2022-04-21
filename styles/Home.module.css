@@ -57,9 +57,4 @@
 } 
 
 
-.degradado {
-    background: linear-gradient(to right, #57bee0, #00ffe1);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
