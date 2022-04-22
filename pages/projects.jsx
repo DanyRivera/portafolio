@@ -61,7 +61,7 @@ const projects = () => {
             react={true}
             next={true}
             gitHub="https://github.com/DanyRivera/guitarla_next"
-            link="https://guitarla-next-sand.vercel.app/"
+            link="https://guitarla-clon.netlify.app/"
           />
 
           <Project
@@ -77,7 +77,7 @@ const projects = () => {
           <Project
             img="/img/citas_mascotas.png"
             nombre="Citas Mascotas"
-            tailwind={false}
+            tailwind={true}
             react={true}
             next={false}
             gitHub="https://github.com/DanyRivera/citas_mascotas_react"

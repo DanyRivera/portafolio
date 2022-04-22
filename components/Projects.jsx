@@ -30,7 +30,7 @@ const Projects = () => {
                     react={true}
                     next={true}
                     gitHub="https://github.com/DanyRivera/guitarla_next"
-                    link="https://guitarla-next-sand.vercel.app/"
+                    link="https://guitarla-clon.netlify.app/"
                 />
 
                 <Project
