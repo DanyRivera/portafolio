@@ -63,14 +63,16 @@ const Header = () => {
             </Link>
 
             <div className="flex flex-col items-center text-secondary hover:text-primary cursor-pointer">
-              <FontAwesomeIcon className="w-9" icon={faImages} />
-              <p className="text-[15px]">Projects</p>
-            </div>
-
-            <div className="flex flex-col items-center text-secondary hover:text-primary cursor-pointer">
               <FontAwesomeIcon className="w-7" icon={faUser} />
               <p className="text-[15px]">About</p>
             </div>
+
+            <Link href="/projects">
+              <div className="flex flex-col items-center text-secondary hover:text-primary cursor-pointer">
+                <FontAwesomeIcon className="w-9" icon={faImages} />
+                <p className="text-[15px]">Projects</p>
+              </div>
+            </Link>
 
             <Link href="/contact">
               <div className="flex flex-col items-center text-secondary hover:text-primary cursor-pointer">
@@ -106,7 +108,9 @@ const Header = () => {
             <p className="cursor-pointer font-medium text-[18px]">Home</p>
           </Link>
           <a className="cursor-pointer font-medium text-[18px]">About</a>
-          <a className="cursor-pointer font-medium text-[18px]">Projects</a>
+          <Link href="/projects">
+            <p className="cursor-pointer font-medium text-[18px]">Projects</p>
+          </Link>
           <Link href="/contact">
             <p className="cursor-pointer font-medium text-[18px]">Contact</p>
           </Link>

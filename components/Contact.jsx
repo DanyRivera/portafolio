@@ -36,14 +36,6 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* <div className="flex items-center gap-10">
-          <FontAwesomeIcon className="w-32 text-primary" icon={faLocationDot} />
-          <div>
-            <p className="text-5xl mb-1 font-inter font-medium degradado">Location</p>
-            <p className="text-3xl font-poppins text-secondary">Puebla City, Mexico</p>
-          </div>
-        </div> */}
-
       </div>
 
       <div className="mb-7 flex justify-center mt-16">

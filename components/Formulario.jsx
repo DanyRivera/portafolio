@@ -47,7 +47,7 @@ const Formulario = () => {
 
                 return (
                     <Form
-                        className="text-center px-8 mb-28 md:w-[70rem] md:mx-auto"
+                        className="text-center px-8 mb-28 md:w-[50rem] md:mx-auto"
                     >
                         <div className="flex gap-1 flex-col justify-start mb-14">
                             <label htmlFor="email" className="w-full text-left text-[18px] font-poppins">Email:</label>
@@ -116,7 +116,7 @@ const Formulario = () => {
                             </div>
                         )}
 
-                        <div className="mb-7 flex justify-center md:justify-end">
+                        <div className="mb-7 flex justify-center">
                             <button
                                 type="submit"
                                 className="border-secondary border py-5 px-12 text-secondary font-poppins font-medium rounded-lg mt-7 hover:bg-[#00000013] hover:border-[#0000] transition-all "

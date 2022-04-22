@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Layout from "../components/Layout";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
@@ -26,9 +27,11 @@ export default function Home() {
               Junior Frontend Developer, I've experience working on React, trying to do my best!
             </p>
 
-            <button
-              className={`${styles.efecto} ${styles.animacion} mt-12 border-2 text-tertiary py-5 border-tertiary rounded-lg md:w-50 md:uppercase`}
-            >Contact Me</button>
+            <Link href="/contact" >
+              <button
+                className={`${styles.efecto} ${styles.animacion} mt-12 border-2 text-tertiary py-5 border-tertiary rounded-lg md:w-50 md:uppercase`}
+              >Contact Me</button>
+            </Link>
 
           </div>
 
