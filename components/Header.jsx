@@ -62,10 +62,12 @@ const Header = () => {
               </div>
             </Link>
 
-            <div className="flex flex-col items-center text-secondary hover:text-primary cursor-pointer">
-              <FontAwesomeIcon className="w-7" icon={faUser} />
-              <p className="text-[15px]">About</p>
-            </div>
+            <Link href="/about">
+              <div className="flex flex-col items-center text-secondary hover:text-primary cursor-pointer">
+                <FontAwesomeIcon className="w-7" icon={faUser} />
+                <p className="text-[15px]">About</p>
+              </div>
+            </Link>
 
             <Link href="/projects">
               <div className="flex flex-col items-center text-secondary hover:text-primary cursor-pointer">
@@ -95,7 +97,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className={`${mostrarNav && `${styles.mostrarBarra} bg-tertiary text-secondary shadow-2xl`} ${styles.nav} ${ruta === '/' ? 'text-tertiary' : 'text-secondary'}  absolute hidden md:flex py-10 justify-between items-center z-10 w-full px-64`}>
+      <div className={`${ruta === '/' ? 'text-tertiary' : 'text-secondary'} ${mostrarNav && `${styles.mostrarBarra} shadow-2xl`}  absolute hidden md:flex py-10 justify-between items-center z-10 w-full px-64`}>
 
         <div>
           <Link href="/">
@@ -107,7 +109,9 @@ const Header = () => {
           <Link href="/" >
             <p className="cursor-pointer font-medium text-[18px]">Home</p>
           </Link>
-          <a className="cursor-pointer font-medium text-[18px]">About</a>
+          <Link href="/about" >
+            <p className="cursor-pointer font-medium text-[18px]">About</p>
+          </Link>
           <Link href="/projects">
             <p className="cursor-pointer font-medium text-[18px]">Projects</p>
           </Link>

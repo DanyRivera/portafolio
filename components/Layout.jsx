@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import Head from 'next/head';
 import Header from './Header';
 import Footer from './Footer';
@@ -8,9 +10,9 @@ const Layout = ({ children, pagina }) => {
         <div>
 
             <Head>
-                <title>{pagina} - Portafolio</title>
+                <title>{pagina} | Dany Rivera</title>
                 <meta name="description" content="Portafolio Dany Rivera" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/img/circle.svg" />
             </Head>
 
             <Header />

@@ -32,6 +32,8 @@
     animation-iteration-count: 1;
     animation-name: mostrarBarra;
     position: fixed;
+    background-color: #fff;
+    color: #6a777c;
 }
 
 @keyframes mostrarBarra {
