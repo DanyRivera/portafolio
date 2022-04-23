@@ -95,7 +95,7 @@ const Project = ({ img, nombre, tailwind, react, next, gitHub, link }) => {
                 <Link href={gitHub} passHref >
                     <a
                         target="_blank"
-                        ref="noreferrer"
+                        rel="noreferrer"
                         className={`${styles.efecto1} flex gap-5 items-center justify-center px-10 border text-tertiary py-4 w-full font-poppins tracking-wide rounded-lg mb-5`}
                     >
                         <FontAwesomeIcon className="w-10" icon={faGithub} />
@@ -106,7 +106,7 @@ const Project = ({ img, nombre, tailwind, react, next, gitHub, link }) => {
                 <Link href={link} >
                     <a
                         target="_blank"
-                        ref="noreferrer"
+                        rel="noreferrer"
                         className={`${styles.efecto2} bg-primary py-4 block text-center px-10 w-full text-tertiary font-poppins tracking-wider rounded-lg mb-3 border`}
                     >View Demo</a>
                 </Link>

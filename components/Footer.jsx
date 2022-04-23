@@ -27,9 +27,34 @@ const Footer = () => {
         </div>
 
         <nav className="flex justify-between px-16 mb-16 ">
-          <FontAwesomeIcon className="w-12" icon={faInstagram} />
-          <FontAwesomeIcon className="w-12" icon={faGithub} />
-          <FontAwesomeIcon className="w-12" icon={faTwitter} />
+
+          <Link href="https://www.instagram.com/luis_daniel_riv/">
+            <a
+              target="_blank"
+              ref="noreferrer"
+            >
+              <FontAwesomeIcon className="w-12" icon={faInstagram} />
+            </a>
+          </Link>
+
+          <Link href="https://github.com/DanyRivera">
+            <a
+              target="_blank"
+              ref="noreferrer"
+            >
+              <FontAwesomeIcon className="w-12" icon={faGithub} />
+            </a>
+          </Link>
+
+          <Link href="https://twitter.com/luis_daniel_riv">
+            <a
+              target="_blank"
+              ref="noreferrer"
+            >
+              <FontAwesomeIcon className="w-12" icon={faTwitter} />
+            </a>
+          </Link>
+
         </nav>
 
       </div>

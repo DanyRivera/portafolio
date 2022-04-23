@@ -16,7 +16,13 @@ const Contact = () => {
           <FontAwesomeIcon className="w-32 text-primary" icon={faEnvelope} />
           <div>
             <p className="text-5xl mb-1 font-inter font-medium degradado">Email</p>
-            <p className="text-3xl font-poppins text-secondary">Correo@correo.com</p>
+            <Link href="mailto:alejoh.developer@gmail.com">
+              <a
+                className="text-2xl md:text-3xl font-poppins text-secondary"
+                target="_blank"
+                rel="noreferrer"
+              >Correo@correo.com</a>
+            </Link>
           </div>
         </div>
 
@@ -24,7 +30,13 @@ const Contact = () => {
           <FontAwesomeIcon className="w-32 text-primary" icon={faTwitter} />
           <div>
             <p className="text-5xl mb-1 font-inter font-medium degradado">Twitter</p>
-            <p className="text-3xl font-poppins text-secondary">@User</p>
+            <Link href="https://twitter.com/luis_daniel_riv">
+              <a
+                className="text-2xl md:text-3xl font-poppins text-secondary"
+                target="_blank"
+                rel="noreferrer"
+              >@luis_daniel_riv</a>
+            </Link>
           </div>
         </div>
 
@@ -32,7 +44,13 @@ const Contact = () => {
           <FontAwesomeIcon className="w-32 text-primary" icon={faInstagram} />
           <div>
             <p className="text-5xl pb-1 font-inter font-medium degradado">Instagram</p>
-            <p className="text-3xl font-poppins text-secondary">@User</p>
+            <Link href="https://www.instagram.com/luis_daniel_riv/">
+              <a
+                className="text-2xl md:text-3xl font-poppins text-secondary"
+                target="_blank"
+                rel="noreferrer"
+              >@luis_daniel_riv</a>
+            </Link>
           </div>
         </div>
 
@@ -50,7 +68,7 @@ const Contact = () => {
           </button>
 
         </Link>
-        
+
       </div>
 
     </section>
