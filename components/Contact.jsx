@@ -10,18 +10,18 @@ const Contact = () => {
 
       <h2 className="heading">Contact Me</h2>
 
-      <div className="pl-14 grid gap-20 items-center md:grid-cols-2 lg:grid-cols-3">
+      <div className="pl-14 md:pl-0 grid gap-20 items-center md:grid-cols-2 lg:grid-cols-3">
 
         <div className="flex items-center gap-10">
           <FontAwesomeIcon className="w-32 text-primary" icon={faEnvelope} />
           <div>
             <p className="text-5xl mb-1 font-inter font-medium degradado">Email</p>
-            <Link href="mailto:alejoh.developer@gmail.com">
+            <Link href="mailto:danyy.dev@gmail.com">
               <a
                 className="text-2xl md:text-3xl font-poppins text-secondary"
                 target="_blank"
                 rel="noreferrer"
-              >Correo@correo.com</a>
+              >danyy.dev@gmail.com</a>
             </Link>
           </div>
         </div>
@@ -56,7 +56,7 @@ const Contact = () => {
 
       </div>
 
-      <div className="mb-7 flex justify-center mt-16">
+      <div className="mb-7 flex justify-center mt-32">
 
         <Link
           href="/contact"

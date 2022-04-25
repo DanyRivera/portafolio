@@ -25,20 +25,6 @@ const contact = () => {
             <div className="flex flex-col items-left gap-14 my-14 pl-28 md:grid md:grid-cols-2 md:pl-0">
 
               <div className="flex items-center gap-5 md:gap-10">
-                <FontAwesomeIcon className="w-20 text-primary" icon={faEnvelope} />
-                <div>
-                  <p className="text-4xl md:text-5xl mb-1 font-inter font-medium degradado">Email</p>
-                  <Link href="mailto:alejoh.developer@gmail.com">
-                    <a
-                      className="text-2xl md:text-3xl font-poppins text-secondary"
-                      target="_blank"
-                      rel="noreferrer"
-                    >Correo@correo.com</a>
-                  </Link>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-5 md:gap-10">
                 <FontAwesomeIcon className="w-20 text-primary" icon={faWhatsapp} />
                 <div>
                   <p className="text-4xl md:text-5xl mb-1 font-inter font-medium degradado">WhatsApp</p>
@@ -57,6 +43,20 @@ const contact = () => {
                 <div>
                   <p className="text-4xl md:text-5xl mb-1 font-inter font-medium degradado">Location</p>
                   <p className="text-2xl md:text-3xl font-poppins text-secondary">Puebla City, México.</p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-5 md:gap-10 col-start-1 col-end-3">
+                <FontAwesomeIcon className="w-24 text-primary" icon={faEnvelope} />
+                <div>
+                  <p className="text-4xl md:text-5xl mb-1 font-inter font-medium degradado">Email</p>
+                  <Link href="mailto:danyy.dev@gmail.com">
+                    <a
+                      className="text-2xl md:text-3xl font-poppins text-secondary"
+                      target="_blank"
+                      rel="noreferrer"
+                    >danyy.dev@gmail.com</a>
+                  </Link>
                 </div>
               </div>
 
@@ -99,7 +99,7 @@ const contact = () => {
               </div>
 
               <div className="flex items-center gap-5 md:gap-10">
-                <FontAwesomeIcon className="w-16 text-primary" icon={faGithub} />
+                <FontAwesomeIcon className="w-20 text-primary" icon={faGithub} />
                 <div>
                   <p className="text-4xl md:text-5xl mb-1 font-inter font-medium degradado">GitHub</p>
                   <Link href="https://github.com/DanyRivera">
