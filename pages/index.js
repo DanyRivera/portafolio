@@ -19,12 +19,12 @@ export default function Home() {
 
           <div className="flex flex-col justify-center mt-14 md:mt-0 md:justify-start">
 
-            <p className={`${styles.animacion} text-tertiary font-inter font-bold text-7xl`}>Hi, I'm Dany</p>
+            <p className={`${styles.animacion} text-tertiary font-inter font-bold text-7xl`}>Hi, I&apos;m Dany</p>
 
             <p className={`${styles.animacion} text-tertiary font-inter font-light text-4xl`}>React Developer</p>
 
             <p className={`${styles.animacion} text-tertiary font-inter font-medium my-10 uppercase text-3xl tracking-wider leading-loose`}>
-              Junior Frontend Developer, I've experience working on React, trying to do my best!
+              Junior Frontend Developer, I&apos;ve experience working on React, trying to do my best!
             </p>
 
             <Link href="/contact" >
