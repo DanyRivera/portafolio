@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import Head from 'next/head';
 import Header from './Header';
 import Footer from './Footer';

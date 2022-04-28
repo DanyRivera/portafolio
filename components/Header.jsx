@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <header>
 
-      <div className={`${mostrar && `hidden`} md:hidden w-full bg-tertiary fixed z-10 bottom-0 px-8 py-5 shadow-inner`}>
+      <div className={`${mostrar && `hidden`} md:hidden w-full bg-tertiary fixed z-10 bottom-0 px-8 py-5 shadow-2xl`}>
 
         <div className="flex justify-between items-center ">
           <div>

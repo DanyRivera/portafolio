@@ -5,7 +5,7 @@ import Alerta from "./Alerta";
 
 const Formulario = () => {
 
-    const [sent, setSent] = useState(false);
+    // const [sent, setSent] = useState(false);
 
     const contactoSchema = Yup.object().shape({
         email: Yup.string().required('Email is Required').email('Invalid Email'),
@@ -13,6 +13,11 @@ const Formulario = () => {
         phone: Yup.number().integer('Invalid Phone Number').positive('Invalid Phone Number').typeError('Invalid Phone Number').required('Phone Number is Required'),
         message: Yup.string().required('Message is Required'),
     })
+
+    const handleSubmit = (values, resetForm) => {
+
+        resetForm()
+    }
 
     return (
 
@@ -30,14 +35,7 @@ const Formulario = () => {
 
             onSubmit={(values, { resetForm }) => {
 
-                setSent(true);
-                resetForm();
-
-                // console.log(values)
-
-                setTimeout(() => {
-                    setSent(false);
-                }, 5000);
+                handleSubmit(values, resetForm);
 
             }}
 
@@ -46,9 +44,12 @@ const Formulario = () => {
             {({ errors, touched }) => {
 
                 return (
-                    <Form
+                    <form
+                        action="https://formsubmit.co/846837b5f5d0383b47aafb491d2beab8 " method="POST"
                         className="text-center px-8 mb-28 md:w-[50rem] md:mx-auto"
                     >
+                        <input type="hidden" name="_captcha" value="false"></input>
+                        <input type="hidden" name="_subject" value="Alguien te Contacto!"></input>
                         <div className="flex gap-1 flex-col justify-start mb-14">
                             <label htmlFor="email" className="w-full text-left text-[18px] font-poppins">Email:</label>
                             <Field
@@ -110,11 +111,11 @@ const Formulario = () => {
                             ) : null}
                         </div>
 
-                        {sent && (
+                        {/* {sent && (
                             <div className="bg-[#068206] text-tertiary p-5 rounded-lg mt-5 font-poppins">
                                 <p>Form Sent Successfully</p>
                             </div>
-                        )}
+                        )} */}
 
                         <div className="mb-7 flex justify-center">
                             <button
@@ -123,7 +124,7 @@ const Formulario = () => {
                             >Send</button>
                         </div>
 
-                    </Form>
+                    </form>
                 )
 
             }}
