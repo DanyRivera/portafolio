@@ -45,7 +45,7 @@ const Formulario = () => {
 
                 return (
                     <form
-                        action="https://formsubmit.co/846837b5f5d0383b47aafb491d2beab8 " method="POST"
+                        action="https://formsubmit.co/846837b5f5d0383b47aafb491d2beab8" method="POST"
                         className="text-center px-8 mb-28 md:w-[50rem] md:mx-auto"
                     >
                         <input type="hidden" name="_captcha" value="false"></input>

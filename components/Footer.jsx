@@ -31,7 +31,7 @@ const Footer = () => {
           <Link href="https://www.instagram.com/luis_daniel_riv/">
             <a
               target="_blank"
-              ref="noreferrer"
+              ref={ref => this.noreferrer = ref}
             >
               <FontAwesomeIcon className="w-12" icon={faInstagram} />
             </a>
@@ -40,7 +40,7 @@ const Footer = () => {
           <Link href="https://github.com/DanyRivera">
             <a
               target="_blank"
-              ref="noreferrer"
+              ref={ref => this.noreferrer = ref}
             >
               <FontAwesomeIcon className="w-12" icon={faGithub} />
             </a>
@@ -49,7 +49,7 @@ const Footer = () => {
           <Link href="https://twitter.com/luis_daniel_riv">
             <a
               target="_blank"
-              ref="noreferrer"
+              ref={ref => this.noreferrer = ref}
             >
               <FontAwesomeIcon className="w-12" icon={faTwitter} />
             </a>
