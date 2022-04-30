@@ -3,19 +3,21 @@
     background: linear-gradient(to right, #2193b0, #6dd5ed);
 }
 
-.efecto {
-    background-image: linear-gradient(to right,  rgb(255, 255, 255) 50%, transparent 50%);
-    background-size: 200%;
-    background-repeat: no-repeat;
-    background-position: right;
-    transition: background-position .3s ease;
-} 
+@media (min-width: 768px) {
+    .efecto {
+        background-image: linear-gradient(to right, rgb(255, 255, 255) 50%, transparent 50%);
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-position: right;
+        transition: background-position .3s ease;
+    }
 
-.efecto:hover {
-    background-position: left;
-    color: #6a777c; 
-    /* color: #000; */
-    font-weight: bold;
+    .efecto:hover {
+        background-position: left;
+        color: #6a777c;
+        /* color: #000; */
+        font-weight: bold;
+    }
 }
 
 .animacion {
@@ -31,7 +33,7 @@
         transform: translateX(-170%);
     }
 
-    100%{
+    100% {
         transform: translateX(0%);
     }
 }
@@ -51,10 +53,7 @@
         transform: translateX(50%);
     }
 
-    100%{
+    100% {
         transform: translateX(0%);
     }
-} 
-
-
-
+}
