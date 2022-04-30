@@ -29,7 +29,7 @@ export default function Home() {
 
             <Link href="/contact" >
               <button
-                className={`${styles.efecto} ${styles.animacion} mt-8 border-2 text-tertiary py-5 border-tertiary rounded-lg md:w-50 md:uppercase`}
+                className={`hidden md:block ${styles.efecto} ${styles.animacion} mt-8 border-2 text-tertiary py-5 border-tertiary rounded-lg md:w-50 md:uppercase`}
               >Contact Me</button>
             </Link>
 
