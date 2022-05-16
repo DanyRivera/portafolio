@@ -3,7 +3,7 @@ import Link from "next/link";
 import Formulario from "../components/Formulario";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons"
-import { faInstagram, faTwitter, faWhatsapp, faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faInstagram, faTwitter, faWhatsapp, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 const contact = () => {
   return (
@@ -103,6 +103,20 @@ const contact = () => {
                 <div>
                   <p className="text-4xl md:text-5xl mb-1 font-inter font-medium degradado">GitHub</p>
                   <Link href="https://github.com/DanyRivera">
+                    <a
+                      className="text-2xl md:text-3xl font-poppins text-secondary"
+                      target="_blank"
+                      rel="noreferrer"
+                    >@DanyRivera</a>
+                  </Link>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-5 md:gap-10">
+                <FontAwesomeIcon className="w-20 text-primary" icon={faLinkedin} />
+                <div>
+                  <p className="text-4xl md:text-5xl mb-1 font-inter font-medium degradado">LinkedIn</p>
+                  <Link href="https://www.linkedin.com/in/dany-rivera/">
                     <a
                       className="text-2xl md:text-3xl font-poppins text-secondary"
                       target="_blank"

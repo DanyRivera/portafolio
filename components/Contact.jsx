@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
-import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons"
 
 const Contact = () => {
   return (
@@ -41,15 +41,15 @@ const Contact = () => {
         </div>
 
         <div className="flex items-center gap-10">
-          <FontAwesomeIcon className="w-32 text-primary" icon={faInstagram} />
+          <FontAwesomeIcon className="w-32 text-primary" icon={faLinkedin} />
           <div>
-            <p className="text-5xl pb-1 font-inter font-medium degradado">Instagram</p>
-            <Link href="https://www.instagram.com/luis_daniel_riv/">
+            <p className="text-5xl pb-1 font-inter font-medium degradado">LinkedIn</p>
+            <Link href="https://www.linkedin.com/in/dany-rivera/">
               <a
                 className="text-2xl md:text-3xl font-poppins text-secondary"
                 target="_blank"
                 rel="noreferrer"
-              >@luis_daniel_riv</a>
+              >@DanyRivera</a>
             </Link>
           </div>
         </div>
