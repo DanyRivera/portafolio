@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Project from "./Project";
 import netflixClonImg from "../public/img/netflix_clon.png";
-import guitarlaClonImg from "../public/img/guitarla_clon.png";
+import catstagramImg from "../public/img/catstagram.png"
 import cotizadorViajesImg from "../public/img/cotizador_viajes.png";
 
 const Projects = () => {
@@ -24,13 +24,13 @@ const Projects = () => {
                 />
 
                 <Project
-                    img={guitarlaClonImg}
-                    nombre="GuitarLA Clon"
-                    tailwind={false}
+                    img={catstagramImg}
+                    nombre="Catstagram"
+                    tailwind={true}
                     react={true}
                     next={true}
-                    gitHub="https://github.com/DanyRivera/guitarla_next"
-                    link="https://guitarla-clon.netlify.app/"
+                    gitHub="https://github.com/DanyRivera/catstagram_next"
+                    link="https://catstagram.vercel.app"
                 />
 
                 <Project
