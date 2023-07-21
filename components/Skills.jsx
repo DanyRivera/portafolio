@@ -6,6 +6,8 @@ import jsLogo from "../public/img/js_icon.svg";
 import tailwindLogo from "../public/img/tailwindcss_icon.svg";
 import reactLogo from "../public/img/react_icon.svg";
 import nextLogo from "../public/img/next_icon.svg";
+import nodeLogo from "../public/img/node_icon.png";
+import expressLogo from "../public/img/express_icon.svg";
 import gitLogo from "../public/img/logo.svg";
 
 const Skills = () => {
@@ -65,6 +67,20 @@ const Skills = () => {
                     nombre="Git"
                     width={75}
                     height={65}
+                />
+
+                <Skill
+                    logoImg={expressLogo}
+                    nombre="Express.js"
+                    width={80}
+                    height={65}
+                />
+
+                <Skill
+                    logoImg={nodeLogo}
+                    nombre="Node.js"
+                    width={50}
+                    height={55}
                 />
 
             </div>

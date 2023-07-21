@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Project from "./Project";
-import netflixClonImg from "../public/img/netflix_clon.png";
-import catstagramImg from "../public/img/catstagram.png"
+import papeRg from "../public/img/pape.webp";
+import classroomClon from "../public/img/classroom_clon.png"
 import cotizadorViajesImg from "../public/img/cotizador_viajes.png";
 
 const Projects = () => {
@@ -14,23 +14,25 @@ const Projects = () => {
             <div className="md:grid md:grid-cols-2 lg:grid-cols-3 px-4">
 
                 <Project
-                    img={netflixClonImg}
-                    nombre="Netflix Clon"
-                    tailwind={true}
+                    img={classroomClon}
+                    nombre="ClassRoom Clon"
+                    tailwind={false}
                     react={true}
-                    next={true}
-                    gitHub="https://github.com/DanyRivera/netflix_clon_next"
-                    link="https://netflix-clon-next.vercel.app/"
+                    next={false}
+                    gitHub="https://github.com/DanyRivera/catstagram_next"
+                    link="https://catstagram.vercel.app"
                 />
 
                 <Project
-                    img={catstagramImg}
-                    nombre="Catstagram"
+                    img={papeRg}
+                    nombre="Papelería RG"
                     tailwind={true}
                     react={true}
                     next={true}
-                    gitHub="https://github.com/DanyRivera/catstagram_next"
-                    link="https://catstagram.vercel.app"
+                    node={true}
+                    express={true}
+                    gitHub="https://github.com/DanyRivera/paperg_frontend"
+                    link="https://www.papeleriarg.com"
                 />
 
                 <Project

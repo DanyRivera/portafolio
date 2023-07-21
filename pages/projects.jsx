@@ -4,8 +4,6 @@ import data from "../projects.json";
 
 const projects = () => {
 
-  console.log(data)
-
   return (
 
     <Layout
@@ -16,7 +14,7 @@ const projects = () => {
 
         <h2 className="heading md:pt-48">Projects</h2>
 
-        <div className="md:grid md:grid-cols-2 lg:grid-cols-3 px-4">
+        <div className="md:grid md:grid-cols-2 lg:grid-cols-4 px-4">
 
         {data.map(proyecto => (
           <Project 
@@ -26,6 +24,8 @@ const projects = () => {
             tailwind={proyecto.tailwind}
             react={proyecto.react}
             next={proyecto.next}
+            node={proyecto.node}
+            express={proyecto.express}
             link={proyecto.link}
             gitHub={proyecto.gitHub}
           />

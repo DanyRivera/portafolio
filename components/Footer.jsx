@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faInstagram, faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
+
+  const date = new Date();
+  const currentDate = date.getFullYear();
+
   return (
 
     <footer className="bg-primary px-8 py-20 text-tertiary">
@@ -11,7 +15,7 @@ const Footer = () => {
 
         <div className="mb-14 text-white">
           <p className="font-bold text-4xl">Dany</p>
-          <p className="text-[16px] mt-2">FrontEnd React Developer</p>
+          <p className="text-[16px] mt-2">FrontEnd Developer</p>
         </div>
 
         <div className="flex flex-col gap-10 mb-14 md:flex-row">
@@ -28,11 +32,11 @@ const Footer = () => {
 
         <nav className="flex justify-between px-16 mb-16 ">
 
-          <Link href="https://www.instagram.com/luis_daniel_riv/">
+          <Link href="https://www.instagram.com/dany_rivera_gl/">
             <a
               target="_blank"
-              // ref={ref => this.noreferrer = ref}
-              // ref="noreferrer"
+            // ref={ref => this.noreferrer = ref}
+            // ref="noreferrer"
             >
               <FontAwesomeIcon className="w-12" icon={faInstagram} />
             </a>
@@ -41,8 +45,8 @@ const Footer = () => {
           <Link href="https://github.com/DanyRivera">
             <a
               target="_blank"
-              // ref={ref => this.noreferrer = ref}
-              // ref="noreferrer"
+            // ref={ref => this.noreferrer = ref}
+            // ref="noreferrer"
             >
               <FontAwesomeIcon className="w-12" icon={faGithub} />
             </a>
@@ -51,8 +55,8 @@ const Footer = () => {
           <Link href="https://twitter.com/luis_daniel_riv">
             <a
               target="_blank"
-              // ref={ref => this.noreferrer = ref}
-              // ref="noreferrer"
+            // ref={ref => this.noreferrer = ref}
+            // ref="noreferrer"
             >
               <FontAwesomeIcon className="w-12" icon={faTwitter} />
             </a>
@@ -63,7 +67,7 @@ const Footer = () => {
       </div>
 
       <div className="text-center">
-        <p className="text-[16px]">Created 100% By Dany Rivera | &copy; 2022 All rights reserved.</p>
+        <p className="text-[16px]">Created 100% By Dany Rivera | &copy; {currentDate} All rights reserved.</p>
       </div>
 
     </footer>

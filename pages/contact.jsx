@@ -74,12 +74,12 @@ const contact = () => {
                 <FontAwesomeIcon className="w-20 text-primary" icon={faInstagram} />
                 <div>
                   <p className="text-4xl md:text-5xl pb-1 font-inter font-medium degradado">Instagram</p>
-                  <Link href="https://www.instagram.com/luis_daniel_riv/">
+                  <Link href="https://www.instagram.com/dany_rivera_gl/">
                     <a
                       className="text-2xl md:text-3xl font-poppins text-secondary"
                       target="_blank"
                       rel="noreferrer"
-                    >@luis_daniel_riv</a>
+                    >@dany_rivera_gl</a>
                   </Link>
                 </div>
               </div>

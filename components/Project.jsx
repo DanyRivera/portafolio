@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import styles from "../styles/Projects.module.css";
 
-const Project = ({ img, nombre, tailwind, react, next, gitHub, link }) => {
+const Project = ({ img, nombre, tailwind, react, next, node, express, gitHub, link }) => {
     return (
 
         <div className="card mx-auto px-6 mb-16 shadow-2xl">
@@ -86,6 +86,29 @@ const Project = ({ img, nombre, tailwind, react, next, gitHub, link }) => {
                 )}
 
 
+                {node && (
+                    <div className="flex gap-3 items-center py-2">
+
+                        <div className="w-7">
+                            <Image layout="responsive" width={50} height={55} src="/img/node_icon.png" alt="Html Logo" />
+                        </div>
+
+                        <p className="text-[15px] font-poppins font-medium">Node.js</p>
+
+                    </div>
+                )}
+
+                {express && (
+                    <div className="flex gap-3 items-center py-2">
+
+                        <div className="w-7">
+                            <Image layout="responsive" width={50} height={55} src="/img/express_icon.svg" alt="Html Logo" />
+                        </div>
+
+                        <p className="text-[15px] font-poppins font-medium">Express.js</p>
+
+                    </div>
+                )}
 
             </div>
 
