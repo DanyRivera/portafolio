@@ -7,6 +7,7 @@ import { faInstagram, faTwitter, faWhatsapp, faGithub, faLinkedin } from "@forta
 
 const contact = () => {
   return (
+    
 
     <Layout
       pagina="Contact"
