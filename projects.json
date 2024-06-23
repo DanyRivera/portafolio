@@ -85,7 +85,7 @@
 
     {
         "id": 11,
-        "img": "/img/tienda.webp",
+        "img": "/img/tienda.png",
         "nombre": "Landing Tienda",
         "tailwind": true,
         "react": true,
