@@ -15,7 +15,7 @@ const Footer = () => {
 
         <div className="mb-14 text-white">
           <p className="font-bold text-4xl">Dany</p>
-          <p className="text-[16px] mt-2">FrontEnd Developer</p>
+          <p className="text-[16px] mt-2">Web Developer</p>
         </div>
 
         <div className="flex flex-col gap-10 mb-14 md:flex-row">

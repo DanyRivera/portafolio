@@ -26,6 +26,8 @@ const projects = () => {
             next={proyecto.next}
             node={proyecto.node}
             express={proyecto.express}
+            laravel={proyecto.laravel}
+            mysql={proyecto.mysql}
             link={proyecto.link}
             gitHub={proyecto.gitHub}
           />

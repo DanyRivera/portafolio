@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import styles from "../styles/Projects.module.css";
 
-const Project = ({ img, nombre, tailwind, react, next, node, express, gitHub, link }) => {
+const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, mysql, gitHub, link }) => {
     return (
 
         <div className="card mx-auto px-6 mb-16 shadow-2xl">
@@ -14,6 +14,12 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, gitHub, li
             </div>
 
             <p className="my-6 font-inter font-bold tracking-wide text-4xl uppercase">{nombre}</p>
+
+            {nombre == 'Frogbox CRM' && (
+                <p className="my-6 font-inter tracking-wide text-xl ">In collaboration with:
+                    <a href="https://capmega.com/es/index.html" target="_blank" rel="noreferrer" className="font-bold"> capmega.com</a>
+                </p>
+            )}
 
             <div className="grid grid-cols-3 my-5">
 
@@ -106,6 +112,30 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, gitHub, li
                         </div>
 
                         <p className="text-[15px] font-poppins font-medium">Express.js</p>
+
+                    </div>
+                )}
+
+                {laravel && (
+                    <div className="flex gap-3 items-center py-2">
+
+                        <div className="w-7">
+                            <Image layout="responsive" width={50} height={55} src="/img/laravel.png" alt="Html Logo" />
+                        </div>
+
+                        <p className="text-[15px] font-poppins font-medium">Laravel</p>
+
+                    </div>
+                )}
+
+                {mysql && (
+                    <div className="flex gap-3 items-center py-2">
+
+                        <div className="w-7">
+                            <Image layout="responsive" width={50} height={55} src="/img/mysql.webp" alt="Html Logo" />
+                        </div>
+
+                        <p className="text-[15px] font-poppins font-medium">MySQL</p>
 
                     </div>
                 )}

@@ -1,15 +1,16 @@
+
 [
     {
         "id": 1,
-        "img": "/img/pape.webp",
-        "nombre": "Papelería RG",
-        "tailwind": true,
-        "react": true,
-        "next": true,
-        "node": true,
-        "express": true,
-        "gitHub": "https://github.com/DanyRivera/paperg_frontend",
-        "link": "https://www.papeleriarg.com"
+        "img": "/img/frogbox.webp",
+        "nombre": "Frogbox CRM",
+        "tailwind": false,
+        "react": false,
+        "next": false,
+        "laravel": true,
+        "mysql": true,
+        "gitHub": "",
+        "link": "https://www.frogbox.com/"
     },
     {
         "id": 2,
@@ -52,18 +53,6 @@
         "link": "https://aprende-las-tablas.netlify.app"
     },
     {
-        "id": 6,
-        "img": "/img/sur.webp",
-        "nombre": "Upa Sur",
-        "tailwind": true,
-        "react": true,
-        "next": true,
-        "node": true,
-        "express": true,
-        "gitHub": "https://github.com/DanyRivera/upa_sur_frontend",
-        "link": "https://www.upasur.com"
-    },
-    {
         "id": 7,
         "img": "/img/landing_apple_clon.png",
         "nombre": "Landing Apple Clon",
@@ -93,16 +82,6 @@
         "gitHub": "https://github.com/DanyRivera/catstagram_next",
         "link": "https://catstagram.vercel.app"
     },
-    {
-        "id": 10,
-        "img": "/img/restaurantee.webp",
-        "nombre": "Restaurante Local",
-        "tailwind": true,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/restaurante_vite",
-        "link": "https://restaurantee-demo.netlify.app"
-    },
 
     {
         "id": 11,
@@ -123,46 +102,6 @@
         "next": true,
         "gitHub": "https://github.com/DanyRivera/creador_campos",
         "link": "https://creador-campos.vercel.app"
-    },
-    {
-        "id": 13,
-        "img": "/img/panaderia.webp",
-        "nombre": "Panadería",
-        "tailwind": true,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/cerrajeria_jj",
-        "link": "https://panaderia-demo.netlify.app"
-    },
-    {
-        "id": 14,
-        "img": "/img/papeleria.webp",
-        "nombre": "Papelería",
-        "tailwind": true,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/papeleria_vite",
-        "link": "https://papeleria-demo.netlify.app"
-    },
-    {
-        "id": 15,
-        "img": "/img/barberia.webp",
-        "nombre": "Barbería",
-        "tailwind": true,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/barberia_vite",
-        "link": "https://barberiaa-demo.netlify.app"
-    },
-    {
-        "id": 16,
-        "img": "/img/cerrajeria.webp",
-        "nombre": "Cerrajería",
-        "tailwind": true,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/cerrajeria_jj",
-        "link": "https://demo-cerrajeria.netlify.app"
     },
     {
         "id": 17,
@@ -205,16 +144,6 @@
         "link": "https://cotizador-criptos-vite.netlify.app"
     },
     {
-        "id": 21,
-        "img": "/img/taqueria.png",
-        "nombre": "Taqueria",
-        "tailwind": false,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/restaurante_react",
-        "link": "https://taqueria-mx.netlify.app"
-    },
-    {
         "id": 22,
         "img": "/img/clima_app.png",
         "nombre": "Clima App",
@@ -233,15 +162,5 @@
         "next": false,
         "gitHub": "https://github.com/DanyRivera/buscador_pixabay",
         "link": "https://buscador-imagenes-mx.netlify.app"
-    },
-    {
-        "id": 24,
-        "img": "/img/restaurante.png",
-        "nombre": "Restaurante",
-        "tailwind": false,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/comida_react",
-        "link": "https://restaurante-mx.netlify.app"
     }
 ]

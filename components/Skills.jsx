@@ -9,6 +9,8 @@ import nextLogo from "../public/img/next_icon.svg";
 import nodeLogo from "../public/img/node_icon.png";
 import expressLogo from "../public/img/express_icon.svg";
 import gitLogo from "../public/img/logo.svg";
+import laravelLogo from "../public/img/laravel.png";
+import mysqlLogo from "../public/img/mysql.webp";
 
 const Skills = () => {
     return (
@@ -79,6 +81,20 @@ const Skills = () => {
                 <Skill
                     logoImg={nodeLogo}
                     nombre="Node.js"
+                    width={50}
+                    height={55}
+                />
+
+                <Skill
+                    logoImg={laravelLogo}
+                    nombre="Laravel"
+                    width={50}
+                    height={55}
+                />
+
+                <Skill
+                    logoImg={mysqlLogo}
+                    nombre="MySQL"
                     width={50}
                     height={55}
                 />

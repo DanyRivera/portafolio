@@ -1,42 +1,49 @@
 import Link from "next/link";
 import Project from "./Project";
-import papeRg from "../public/img/pape.webp";
-import classroomClon from "../public/img/classroom_clon.png"
-import cotizadorViajesImg from "../public/img/cotizador_viajes.png";
 
 const Projects = () => {
     return (
 
-        <main className="contenedor pb-20">
+        <main className="p-20">
 
             <h2 className="heading">Projects</h2>
 
-            <div className="md:grid md:grid-cols-2 lg:grid-cols-3 px-4">
+            <div className="md:grid md:grid-cols-2 lg:grid-cols-4 ">
 
                 <Project
-                    img={classroomClon}
+                    img="/img/frogbox.webp"
+                    nombre="Frogbox CRM"
+                    tailwind={false}
+                    react={false}
+                    next={false}
+                    laravel={true}
+                    mysql={true}
+                    gitHub=""
+                    link="https://www.frogbox.com"
+                />
+
+                <Project
+                    img="/img/pomme.webp"
+                    nombre="Pomme Hospedajes"
+                    tailwind={true}
+                    react={true}
+                    next={false}
+                    gitHub="https://github.com/DanyRivera/pomme_zacatlan"
+                    link="https://pommezacatlan.com"
+                />
+
+                <Project
+                    img="/img/classroom_clon.png"
                     nombre="ClassRoom Clon"
                     tailwind={false}
                     react={true}
                     next={false}
-                    gitHub="https://github.com/DanyRivera/catstagram_next"
-                    link="https://catstagram.vercel.app"
+                    gitHub="https://github.com/DanyRivera/classroom_clon_react"
+                    link="https://classroom-clon-vite.netlify.app/clases"
                 />
 
                 <Project
-                    img={papeRg}
-                    nombre="Papelería RG"
-                    tailwind={true}
-                    react={true}
-                    next={true}
-                    node={true}
-                    express={true}
-                    gitHub="https://github.com/DanyRivera/paperg_frontend"
-                    link="https://www.papeleriarg.com"
-                />
-
-                <Project
-                    img={cotizadorViajesImg}
+                    img="/img/cotizador_viajes.png"
                     nombre="Cotizador de Viajes"
                     tailwind={true}
                     react={true}
@@ -52,7 +59,7 @@ const Projects = () => {
                     href="/projects"
                 >
                     <button
-                        className="border-secondary border py-5 px-12 text-secondary font-poppins font-medium rounded-lg mt-7 hover:bg-[#00000013] hover:border-[#0000] transition-all "
+                        className="border-secondary border py-5 px-12 text-secondary font-poppins font-medium rounded-lg mt-7 mr-14 hover:bg-[#00000013] hover:border-[#0000] transition-all "
                     >View More</button>
                 </Link>
             </div>

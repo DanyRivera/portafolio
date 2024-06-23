@@ -22,7 +22,7 @@ const about = () => {
                 <div className="flex justify-center pb-20">
                         <a
                             href="/cv.pdf"
-                            download="CV-Dany-Rivera"
+                            download="CV - Luis Daniel Rivera González"
                             className="border-secondary border py-5 px-12 text-secondary font-poppins font-medium rounded-lg mt-7 hover:bg-[#00000013] hover:border-[#0000] transition-all "
                         >Download CV</a>
                 </div>
