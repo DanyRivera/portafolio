@@ -23,7 +23,7 @@ const Projects = () => {
                 />
 
                 <Project
-                    img="/img/pomme.webp"
+                    img="/img/pomme.png"
                     nombre="Pomme Hospedajes"
                     tailwind={true}
                     react={true}

@@ -14,7 +14,7 @@
     },
     {
         "id": 2,
-        "img": "/img/pomme.webp",
+        "img": "/img/pomme.png",
         "nombre": "Pomme Hospedajes",
         "tailwind": true,
         "react": true,
