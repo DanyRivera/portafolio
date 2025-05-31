@@ -17,7 +17,7 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
 
             {nombre == 'Frogbox CRM' && (
                 <p className="my-6 font-inter tracking-wide text-xl ">In collaboration with:
-                    <a href="https://capmega.com/es/index.html" target="_blank" rel="noreferrer" className="font-bold"> capmega.com</a>
+                    <a href="https://www.linkedin.com/company/capmega/" target="_blank" rel="noreferrer" className="font-bold"> capmega.com</a>
                 </p>
             )}
 
