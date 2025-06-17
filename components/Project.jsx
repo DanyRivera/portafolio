@@ -7,7 +7,7 @@ import styles from "../styles/Projects.module.css";
 const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, mysql, gitHub, link }) => {
     return (
 
-        <div className="card mx-auto px-6 mb-16 shadow-2xl">
+        <div className="flex flex-col justify-between card mx-auto px-6 mb-16 shadow-2xl">
 
             <div className="pt-10 imagen">
                 <Image layout="responsive" width={250} height={150} src={img} alt="Img" />
@@ -18,6 +18,12 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
             {nombre == 'Frogbox CRM' && (
                 <p className="my-6 font-inter tracking-wide text-xl ">In collaboration with:
                     <a href="https://www.linkedin.com/company/capmega/" target="_blank" rel="noreferrer" className="font-bold"> capmega.com</a>
+                </p>
+            )}
+
+            {nombre == 'Punto de Venta' && (
+                <p className="my-6 font-inter tracking-wide text-xl ">In collaboration with:
+                    <a href="https://www.papeleriamargo.com" target="_blank" rel="noreferrer" className="font-bold"> papeleriamargo.com</a>
                 </p>
             )}
 
@@ -156,7 +162,7 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
                     </a>
                 </Link>
 
-                <Link href={link} >
+                <Link className="h-full" href={link} >
                     <a
                         target="_blank"
                         rel="noreferrer"

@@ -1,7 +1,18 @@
-
 [
     {
         "id": 1,
+        "img": "/img/irpm.webp",
+        "nombre": "Punto de Venta",
+        "tailwind": true,
+        "react": true,
+        "next": true,
+        "laravel": false,
+        "mysql": false,
+        "gitHub": "",
+        "link": "https://www.papeleriamargo.com/"
+    },
+    {
+        "id": 1.1,
         "img": "/img/frogbox.webp",
         "nombre": "Frogbox CRM",
         "tailwind": false,
@@ -82,7 +93,6 @@
         "gitHub": "https://github.com/DanyRivera/catstagram_next",
         "link": "https://catstagram.vercel.app"
     },
-
     {
         "id": 11,
         "img": "/img/tienda.png",
