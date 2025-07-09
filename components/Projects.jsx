@@ -11,6 +11,19 @@ const Projects = () => {
             <div className="md:grid md:grid-cols-2 lg:grid-cols-4 ">
 
                 <Project
+                    img="/img/irpm.webp"
+                    nombre="Punto de Venta"
+                    tailwind={true}
+                    react={true}
+                    next={true}
+                    laravel={false}
+                    mysql={false}
+                    gitHub=""
+                    link="https://www.papeleriamargo.com/"
+                />
+
+
+                <Project
                     img="/img/frogbox.webp"
                     nombre="Frogbox CRM"
                     tailwind={false}
@@ -21,6 +34,7 @@ const Projects = () => {
                     gitHub=""
                     link="https://www.frogbox.com"
                 />
+                
 
                 <Project
                     img="/img/pomme.png"
@@ -29,10 +43,10 @@ const Projects = () => {
                     react={true}
                     next={false}
                     gitHub="https://github.com/DanyRivera/pomme_zacatlan"
-                    link="https://pommezacatlan.com"
+                    link="https://pommezacatlan.org"
                 />
 
-                <Project
+                {/* <Project
                     img="/img/classroom_clon.png"
                     nombre="ClassRoom Clon"
                     tailwind={false}
@@ -40,7 +54,7 @@ const Projects = () => {
                     next={false}
                     gitHub="https://github.com/DanyRivera/classroom_clon_react"
                     link="https://classroom-clon-vite.netlify.app/clases"
-                />
+                /> */}
 
                 <Project
                     img="/img/cotizador_viajes.png"
