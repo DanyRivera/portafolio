@@ -8,7 +8,7 @@ const Projects = () => {
 
             <h2 className="heading">Projects</h2>
 
-            <div className="md:grid md:grid-cols-2 lg:grid-cols-5 ">
+            <div className="md:grid md:grid-cols-2 lg:grid-cols-5 lg:gap-10">
 
                 <Project
                     img="/img/mp-klanet.png"
