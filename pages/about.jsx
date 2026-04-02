@@ -19,7 +19,7 @@ const about = () => {
 
                         I consider myself a self-taught, organized, and dedicated person who enjoys solving problems and continuously learning new things. I also value teamwork and believe that collaboration is key to building better products and growing as a developer.
 
-                        I'm always curious about how great applications and websites are built, which motivates me to keep improving and creating meaningful digital experiences.
+                        I&apos;m always curious about how great applications and websites are built, which motivates me to keep improving and creating meaningful digital experiences.
                     </p>
                 </div>
 
