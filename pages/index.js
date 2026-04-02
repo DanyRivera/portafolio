@@ -24,7 +24,7 @@ export default function Home() {
             <p className={`${styles.animacion} text-tertiary font-inter font-light text-4xl`}>Web Developer</p>
 
             <p className={`${styles.animacion} text-tertiary font-inter font-medium my-10 uppercase text-3xl tracking-wider leading-loose`}>
-              Junior Frontend Developer, I&apos;ve experience working on <span className="font-bold">React, Next.js, Laravel & MySQL</span> trying to do my best!
+              Frontend Developer focused on building fast, modern web applications with React and Next.js.
             </p>
 
             <Link href="/contact" >

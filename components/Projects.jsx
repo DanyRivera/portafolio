@@ -8,7 +8,32 @@ const Projects = () => {
 
             <h2 className="heading">Projects</h2>
 
-            <div className="md:grid md:grid-cols-2 lg:grid-cols-4 ">
+            <div className="md:grid md:grid-cols-2 lg:grid-cols-5 ">
+
+                <Project
+                    img="/img/mp-klanet.png"
+                    nombre="Klanet Marketplace"
+                    svelte={true}
+                    gitHub=""
+                    link="https://www.klanet.mx"
+                />
+
+                <Project
+                    img="/img/admin-klanet.png"
+                    nombre="Klanet Admin"
+                    svelte={true}
+                    gitHub=""
+                    link="https://admin.klanet.mx"
+                />
+
+                <Project
+                    img="/img/my-klanet.png"
+                    nombre="My Klanet"
+                    svelte={true}
+                    gitHub=""
+                    link="https://www.myklanet.com"
+                />
+
 
                 <Project
                     img="/img/irpm.webp"
@@ -16,8 +41,6 @@ const Projects = () => {
                     tailwind={true}
                     react={true}
                     next={true}
-                    laravel={false}
-                    mysql={false}
                     gitHub=""
                     link="https://www.papeleriamargo.com/"
                 />
@@ -26,44 +49,10 @@ const Projects = () => {
                 <Project
                     img="/img/frogbox.webp"
                     nombre="Frogbox CRM"
-                    tailwind={false}
-                    react={false}
-                    next={false}
                     laravel={true}
                     mysql={true}
                     gitHub=""
                     link="https://www.frogbox.com"
-                />
-                
-
-                <Project
-                    img="/img/pomme.png"
-                    nombre="Pomme Hospedajes"
-                    tailwind={true}
-                    react={true}
-                    next={false}
-                    gitHub="https://github.com/DanyRivera/pomme_zacatlan"
-                    link="https://pommezacatlan.org"
-                />
-
-                {/* <Project
-                    img="/img/classroom_clon.png"
-                    nombre="ClassRoom Clon"
-                    tailwind={false}
-                    react={true}
-                    next={false}
-                    gitHub="https://github.com/DanyRivera/classroom_clon_react"
-                    link="https://classroom-clon-vite.netlify.app/clases"
-                /> */}
-
-                <Project
-                    img="/img/cotizador_viajes.png"
-                    nombre="Cotizador de Viajes"
-                    tailwind={true}
-                    react={true}
-                    next={false}
-                    gitHub="https://github.com/DanyRivera/cotizador_viajes_react"
-                    link="https://cotizador-viajes-vite.netlify.app/"
                 />
 
             </div>

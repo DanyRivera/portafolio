@@ -14,7 +14,7 @@ const projects = () => {
 
         <h2 className="heading md:pt-48">Projects</h2>
 
-        <div className="md:grid md:grid-cols-2 lg:grid-cols-4 px-4">
+        <div className="md:grid md:grid-cols-2 lg:grid-cols-5 px-4">
 
         {data.map(proyecto => (
           <Project 
@@ -28,6 +28,7 @@ const projects = () => {
             express={proyecto.express}
             laravel={proyecto.laravel}
             mysql={proyecto.mysql}
+            svelte={proyecto.svelte}
             link={proyecto.link}
             gitHub={proyecto.gitHub}
           />

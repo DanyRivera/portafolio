@@ -9,8 +9,7 @@ import nextLogo from "../public/img/next_icon.svg";
 import nodeLogo from "../public/img/node_icon.png";
 import expressLogo from "../public/img/express_icon.svg";
 import gitLogo from "../public/img/logo.svg";
-import laravelLogo from "../public/img/laravel.png";
-import mysqlLogo from "../public/img/mysql.webp";
+import svelte from "../public/img/sveltekit.png";
 
 const Skills = () => {
     return (
@@ -19,7 +18,7 @@ const Skills = () => {
 
             <h2 className="heading">Skills</h2>
 
-            <div className="md:grid md:grid-cols-3 lg:grid-cols-4">
+            <div className="md:grid md:grid-cols-3 lg:grid-cols-4 items-center">
 
 
                 <Skill
@@ -81,22 +80,15 @@ const Skills = () => {
                 <Skill
                     logoImg={nodeLogo}
                     nombre="Node.js"
-                    width={50}
-                    height={55}
+                    width={80}
+                    height={75}
                 />
 
                 <Skill
-                    logoImg={laravelLogo}
-                    nombre="Laravel"
-                    width={50}
-                    height={55}
-                />
-
-                <Skill
-                    logoImg={mysqlLogo}
-                    nombre="MySQL"
-                    width={50}
-                    height={55}
+                    logoImg={svelte}
+                    nombre="Svelte Kit"
+                    width={80}
+                    height={75}
                 />
 
             </div>

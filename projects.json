@@ -1,13 +1,35 @@
 [
     {
+        "id": 1.2,
+        "img": "/img/mp-klanet.png",
+        "nombre": "Klanet Marketplace",
+        "svelte": true,
+        "gitHub": "",
+        "link": "https://www.klanet.mx"
+    },
+    {
+        "id": 1.2,
+        "img": "/img/admin-klanet.png",
+        "nombre": "Klanet Admin",
+        "svelte": true,
+        "gitHub": "",
+        "link": "https://admin.klanet.mx"
+    },
+    {
+        "id": 1.2,
+        "img": "/img/my-klanet.png",
+        "nombre": "My Klanet",
+        "svelte": true,
+        "gitHub": "",
+        "link": "https://www.myklanet.com"
+    },
+    {
         "id": 1,
         "img": "/img/irpm.webp",
         "nombre": "Punto de Venta",
         "tailwind": true,
         "react": true,
         "next": true,
-        "laravel": false,
-        "mysql": false,
         "gitHub": "",
         "link": "https://www.papeleriamargo.com/"
     },
@@ -15,33 +37,10 @@
         "id": 1.1,
         "img": "/img/frogbox.webp",
         "nombre": "Frogbox CRM",
-        "tailwind": false,
-        "react": false,
-        "next": false,
         "laravel": true,
         "mysql": true,
         "gitHub": "",
         "link": "https://www.frogbox.com/"
-    },
-    {
-        "id": 2,
-        "img": "/img/pomme.png",
-        "nombre": "Pomme Hospedajes",
-        "tailwind": true,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/pomme_zacatlan",
-        "link": "https://pommezacatlan.org"
-    },
-    {
-        "id": 3,
-        "img": "/img/classroom_clon.png",
-        "nombre": "ClassRoom Clon",
-        "tailwind": false,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/classroom_clon_react",
-        "link": "https://classroom-clon-vite.netlify.app/clases"
     },
     {
         "id": 4,
@@ -49,7 +48,6 @@
         "nombre": "Cotizador de Viajes",
         "tailwind": true,
         "react": true,
-        "next": false,
         "gitHub": "https://github.com/DanyRivera/cotizador_viajes_react",
         "link": "https://cotizador-viajes-vite.netlify.app"
     },
@@ -59,20 +57,37 @@
         "nombre": "Aprender las Tablas",
         "tailwind": true,
         "react": true,
-        "next": false,
         "gitHub": "https://github.com/DanyRivera/aprender_tablas_react",
         "link": "https://aprende-las-tablas.netlify.app"
     },
     {
-        "id": 7,
-        "img": "/img/landing_apple_clon.png",
-        "nombre": "Landing Apple Clon",
+        "id": 18,
+        "img": "/img/citas_mascotas.png",
+        "nombre": "Citas Mascotas",
         "tailwind": true,
         "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/landing_iphone_clone",
-        "link": "https://landing-iphone-clon.netlify.app"
+        "gitHub": "https://github.com/DanyRivera/citas_mascotas_react",
+        "link": "https://citas-mascotas-vite.netlify.app"
     },
+    {
+        "id": 19,
+        "img": "/img/control_gastos.png",
+        "nombre": "Control Gastos",
+        "tailwind": false,
+        "react": true,
+        "gitHub": "https://github.com/DanyRivera/control_gastos_react",
+        "link": "https://control-gastos-vite.netlify.app"
+    },
+    {
+        "id": 2,
+        "img": "/img/pomme.png",
+        "nombre": "Pomme Hospedajes",
+        "tailwind": true,
+        "react": true,
+        "gitHub": "https://github.com/DanyRivera/pomme_zacatlan",
+        "link": "https://pommezacatlan.org"
+    },
+    
     {
         "id": 8,
         "img": "/img/netflix_clon.png",
@@ -84,93 +99,21 @@
         "link": "https://netflix-clon-next.vercel.app"
     },
     {
-        "id": 9,
-        "img": "/img/catstagram.png",
-        "nombre": "Catstagram",
+        "id": 3,
+        "img": "/img/classroom_clon.png",
+        "nombre": "ClassRoom Clon",
+        "tailwind": false,
+        "react": true,
+        "gitHub": "https://github.com/DanyRivera/classroom_clon_react",
+        "link": "https://classroom-clon-vite.netlify.app/clases"
+    },
+    {
+        "id": 7,
+        "img": "/img/landing_apple_clon.png",
+        "nombre": "Landing Apple Clon",
         "tailwind": true,
         "react": true,
-        "next": true,
-        "gitHub": "https://github.com/DanyRivera/catstagram_next",
-        "link": "https://catstagram.vercel.app"
-    },
-    {
-        "id": 11,
-        "img": "/img/tienda.png",
-        "nombre": "Landing Tienda",
-        "tailwind": true,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/tienda_vite",
-        "link": "https://tiendaa-demo.netlify.app"
-    },
-    {
-        "id": 12,
-        "img": "/img/creador_campos.png",
-        "nombre": "Creador de Campos",
-        "tailwind": true,
-        "react": true,
-        "next": true,
-        "gitHub": "https://github.com/DanyRivera/creador_campos",
-        "link": "https://creador-campos.vercel.app"
-    },
-    {
-        "id": 17,
-        "img": "/img/calculadora.png",
-        "nombre": "Calculadora",
-        "tailwind": false,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/calculadora_react",
-        "link": "https://calculadora-vite.netlify.app"
-    },
-    {
-        "id": 18,
-        "img": "/img/citas_mascotas.png",
-        "nombre": "Citas Mascotas",
-        "tailwind": true,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/citas_mascotas_react",
-        "link": "https://citas-mascotas-vite.netlify.app"
-    },
-    {
-        "id": 19,
-        "img": "/img/control_gastos.png",
-        "nombre": "Control Gastos",
-        "tailwind": false,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/control_gastos_react",
-        "link": "https://control-gastos-vite.netlify.app"
-    },
-    {
-        "id": 20,
-        "img": "/img/cotizador_criptos.png",
-        "nombre": "Cotizador Criptos",
-        "tailwind": false,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/cotizador_criptos_react",
-        "link": "https://cotizador-criptos-vite.netlify.app"
-    },
-    {
-        "id": 22,
-        "img": "/img/clima_app.png",
-        "nombre": "Clima App",
-        "tailwind": false,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/clima_react",
-        "link": "https://clima-react-mx.netlify.app"
-    },
-    {
-        "id": 23,
-        "img": "/img/buscador_imagenes.png",
-        "nombre": "Buscador imagenes",
-        "tailwind": false,
-        "react": true,
-        "next": false,
-        "gitHub": "https://github.com/DanyRivera/buscador_pixabay",
-        "link": "https://buscador-imagenes-mx.netlify.app"
+        "gitHub": "https://github.com/DanyRivera/landing_iphone_clone",
+        "link": "https://landing-iphone-clon.netlify.app"
     }
 ]

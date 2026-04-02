@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import styles from "../styles/Projects.module.css";
 
-const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, mysql, gitHub, link }) => {
+const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, mysql, svelte, gitHub, link }) => {
     return (
 
         <div className="flex flex-col justify-between card mx-auto px-6 mb-16 shadow-2xl">
@@ -16,14 +16,32 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
             <p className="my-6 font-inter font-bold tracking-wide text-4xl uppercase">{nombre}</p>
 
             {nombre == 'Frogbox CRM' && (
-                <p className="my-6 font-inter tracking-wide text-xl ">In collaboration with:
+                <p className="my-2 font-inter tracking-wide text-xl ">In collaboration with:
                     <a href="https://www.linkedin.com/company/capmega/" target="_blank" rel="noreferrer" className="font-bold"> capmega.com</a>
                 </p>
             )}
 
             {nombre == 'Punto de Venta' && (
-                <p className="my-6 font-inter tracking-wide text-xl ">In collaboration with:
+                <p className="my-2 font-inter tracking-wide text-xl ">In collaboration with:
                     <a href="https://www.papeleriamargo.com" target="_blank" rel="noreferrer" className="font-bold"> papeleriamargo.com</a>
+                </p>
+            )}
+
+            {nombre == 'Klanet Marketplace' && (
+                <p className="my-2 font-inter tracking-wide text-xl ">In collaboration with:
+                    <a href="https://www.Klanet.mx" target="_blank" rel="noreferrer" className="font-bold"> Klanet.mx</a>
+                </p>
+            )}
+
+            {nombre == 'Klanet Admin' && (
+                <p className="my-2 font-inter tracking-wide text-xl ">In collaboration with:
+                    <a href="https://www.Klanet.mx" target="_blank" rel="noreferrer" className="font-bold"> Klanet.mx</a>
+                </p>
+            )}
+
+            {nombre == 'My Klanet' && (
+                <p className="my-2 font-inter tracking-wide text-xl ">In collaboration with:
+                    <a href="https://www.Klanet.mx" target="_blank" rel="noreferrer" className="font-bold"> Klanet.mx</a>
                 </p>
             )}
 
@@ -142,6 +160,18 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
                         </div>
 
                         <p className="text-[15px] font-poppins font-medium">MySQL</p>
+
+                    </div>
+                )}
+
+                {svelte && (
+                    <div className="flex gap-3 items-center py-2">
+
+                        <div className="w-7">
+                            <Image layout="responsive" width={50} height={55} src="/img/sveltekit.png" alt="Svelte Logo" />
+                        </div>
+
+                        <p className="text-[15px] font-poppins font-medium">SvelteKit</p>
 
                     </div>
                 )}
