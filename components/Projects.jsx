@@ -11,6 +11,17 @@ const Projects = () => {
             <div className="md:grid md:grid-cols-2 lg:grid-cols-5 lg:gap-10">
 
                 <Project
+                    img="/img/barber-system.png"
+                    nombre="Sistema para Barberías con IA"
+                    react={true}
+                    tailwind={true}
+                    node={true}
+                    express={true}
+                    gitHub="https://github.com/DanyRivera/barber_system_frontend"
+                    link="https://barber-system.netlify.app"
+                />
+
+                <Project
                     img="/img/mp-klanet.png"
                     nombre="Klanet Marketplace"
                     svelte={true}
@@ -46,14 +57,7 @@ const Projects = () => {
                 />
 
 
-                <Project
-                    img="/img/frogbox.webp"
-                    nombre="Frogbox CRM"
-                    laravel={true}
-                    mysql={true}
-                    gitHub=""
-                    link="https://www.frogbox.com"
-                />
+
 
             </div>
 

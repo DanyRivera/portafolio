@@ -45,9 +45,9 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
                 </p>
             )}
 
-            <div className="grid grid-cols-3 my-5">
+            <div className="grid grid-cols-3 gap-3 my-5">
 
-                <div className="flex gap-3 items-center py-2">
+                <div className="flex gap-3 items-center ">
 
                     <div className="w-7">
                         <Image layout="responsive" width={50} height={55} src="/img/html_icon.svg" alt="Html Logo" />
@@ -57,7 +57,7 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
 
                 </div>
 
-                <div className="flex gap-3 items-center py-2">
+                <div className="flex gap-3 items-center ">
 
                     <div className="w-7">
                         <Image layout="responsive" width={50} height={55} src="/img/css_icon.svg" alt="Css Logo" />
@@ -67,18 +67,18 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
 
                 </div>
 
-                <div className="flex gap-3 items-center py-2">
+                <div className="flex gap-3 items-center ">
 
                     <div className="w-7">
                         <Image layout="responsive" width={50} height={55} src="/img/js_icon.svg" alt="JavaSript Logo" />
                     </div>
 
-                    <p className="text-[15px] font-poppins font-medium">JavaSript</p>
+                    <p className="text-[15px] font-poppins font-medium">JS</p>
 
                 </div>
 
                 {tailwind && (
-                    <div className="flex gap-3 items-center py-2">
+                    <div className="flex gap-3 items-center ">
 
                         <div className="w-7">
                             <Image layout="responsive" width={50} height={55} src="/img/tailwindcss_icon.svg" alt="Tailwind Logo" />
@@ -91,7 +91,7 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
 
                 {react && (
 
-                    <div className="flex gap-3 items-center py-2">
+                    <div className="flex gap-3 items-center ">
 
                         <div className="w-7">
                             <Image layout="responsive" width={50} height={55} src="/img/react_icon.svg" alt="React Logo" />
@@ -104,7 +104,7 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
                 )}
 
                 {next && (
-                    <div className="flex gap-3 items-center py-2">
+                    <div className="flex gap-3 items-center ">
 
                         <div className="w-7">
                             <Image layout="responsive" width={50} height={55} src="/img/next_icon.svg" alt="Html Logo" />
@@ -117,7 +117,7 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
 
 
                 {node && (
-                    <div className="flex gap-3 items-center py-2">
+                    <div className="flex gap-3 items-center ">
 
                         <div className="w-7">
                             <Image layout="responsive" width={50} height={55} src="/img/node_icon.png" alt="Html Logo" />
@@ -129,7 +129,7 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
                 )}
 
                 {express && (
-                    <div className="flex gap-3 items-center py-2">
+                    <div className="flex gap-3 items-center ">
 
                         <div className="w-7">
                             <Image layout="responsive" width={50} height={55} src="/img/express_icon.svg" alt="Html Logo" />
@@ -141,7 +141,7 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
                 )}
 
                 {laravel && (
-                    <div className="flex gap-3 items-center py-2">
+                    <div className="flex gap-3 items-center ">
 
                         <div className="w-7">
                             <Image layout="responsive" width={50} height={55} src="/img/laravel.png" alt="Html Logo" />
@@ -153,7 +153,7 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
                 )}
 
                 {mysql && (
-                    <div className="flex gap-3 items-center py-2">
+                    <div className="flex gap-3 items-center ">
 
                         <div className="w-7">
                             <Image layout="responsive" width={50} height={55} src="/img/mysql.webp" alt="Html Logo" />
@@ -165,7 +165,7 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
                 )}
 
                 {svelte && (
-                    <div className="flex gap-3 items-center py-2">
+                    <div className="flex gap-3 items-center ">
 
                         <div className="w-7">
                             <Image layout="responsive" width={50} height={55} src="/img/sveltekit.png" alt="Svelte Logo" />
