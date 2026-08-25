@@ -13,13 +13,13 @@ const about = () => {
 
                 <div className="px-10 mb-20">
                     <p className="text-[20px] leading-relaxed tracking-wider font-inter md:text-[22px] md:w-3/4 md:mx-auto text-justify">
-                        My name is Luis Daniel Rivera González, a Web Developer from Mexico and a student passionate about technology. I started my journey as a developer in mid-2020, and since then, I have been constantly learning and improving my skills through practice and by building real-world projects.
+                        I’m Dany Rivera, a Frontend Developer and Information Technology student based in Puebla, Mexico. I started learning web development in 2020 and have since turned that interest into professional experience building and maintaining real-world digital products.
 
-                        Throughout this time, I have developed multiple websites, including this portfolio, which was fully designed and built by me. Each project has helped me strengthen my knowledge in technologies like React, Next.js, and modern web development practices. You can explore some of my work on the <Link href="/projects"><span className="degradado cursor-pointer">projects page</span></Link>.
+                        I currently work as a Frontend Developer at Klanet, where I contribute to three web platforms using SvelteKit: Klanet Marketplace, Klanet Admin, and My Klanet. Previously, I worked at CAPMEGA developing and maintaining web solutions with Laravel, MySQL, JavaScript, and WordPress.
 
-                        I consider myself a self-taught, organized, and dedicated person who enjoys solving problems and continuously learning new things. I also value teamwork and believe that collaboration is key to building better products and growing as a developer.
+                        Alongside my professional work, I build independent projects using React, Next.js, Tailwind CSS, and Supabase. I enjoy creating responsive, intuitive interfaces, solving technical problems, and continuously improving the quality of the products I build.
 
-                        I&apos;m always curious about how great applications and websites are built, which motivates me to keep improving and creating meaningful digital experiences.
+                        I’m currently open to new frontend opportunities where I can contribute to real products, strengthen my React and Next.js expertise, and continue growing as part of a development team.
                     </p>
                 </div>
 
@@ -28,7 +28,7 @@ const about = () => {
                         href="/cv.pdf"
                         download="CV - Luis Daniel Rivera González"
                         className="border-secondary border py-5 px-12 text-secondary font-poppins font-medium rounded-lg mt-7 hover:bg-[#00000013] hover:border-[#0000] transition-all "
-                    >Download CV</a>
+                    >Download Resume</a>
                 </div>
 
                 <Skills />

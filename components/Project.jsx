@@ -186,23 +186,35 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
 
             <div className="pb-5">
 
-
-                <Link href={gitHub} passHref >
-                    <a
-                        target="_blank"
-                        rel="noreferrer"
-                        className={`${styles.efecto1} flex gap-5 items-center justify-center px-10 border text-tertiary py-4 w-full font-poppins tracking-wide rounded-lg mb-5`}
-                    >
-                        <FontAwesomeIcon className="w-10" icon={faGithub} />
-                        View Code
-                    </a>
-                </Link>
+                {gitHub == '' ?
+                    <Link href={gitHub} passHref >
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            className={`${styles.efecto1} text-xl flex gap-5 items-center justify-center px-10 border text-tertiary py-4 w-full font-poppins tracking-wide rounded-lg mb-5`}
+                        >
+                            <FontAwesomeIcon className="w-10" icon={faGithub} />
+                            Private Repository
+                        </a>
+                    </Link>
+                    :
+                    <Link href={gitHub} passHref >
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            className={`${styles.efecto1} text-xl flex gap-5 items-center justify-center px-10 border text-tertiary py-4 w-full font-poppins tracking-wide rounded-lg mb-5`}
+                        >
+                            <FontAwesomeIcon className="w-10" icon={faGithub} />
+                            View Code
+                        </a>
+                    </Link>
+                }
 
                 <Link className="h-full" href={link} >
                     <a
                         target="_blank"
                         rel="noreferrer"
-                        className={`${styles.efecto2} bg-primary py-4 block text-center px-10 w-full text-tertiary font-poppins tracking-wider rounded-lg mb-3 border`}
+                        className={`${styles.efecto2} text-xl bg-primary py-4 block text-center px-10 w-full text-tertiary font-poppins tracking-wider rounded-lg mb-3 border`}
                     >View Demo</a>
                 </Link>
 
