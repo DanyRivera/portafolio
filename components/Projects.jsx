@@ -11,14 +11,13 @@ const Projects = () => {
             <div className="md:grid md:grid-cols-2 lg:grid-cols-5 lg:gap-10">
 
                 <Project
-                    img="/img/barber-system.png"
-                    nombre="Sistema para Barberías con IA"
+                    img="/img/time-app.png"
+                    nombre="Checador Entrada/Salida"
                     react={true}
                     tailwind={true}
-                    node={true}
-                    express={true}
-                    gitHub="https://github.com/DanyRivera/barber_system_frontend"
-                    link="https://barber-system.netlify.app"
+                    next={true}
+                    gitHub="https://github.com/DanyRivera/attendace-app"
+                    link="https://time-check-app.vercel.app/login"
                 />
 
                 <Project

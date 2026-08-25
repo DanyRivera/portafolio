@@ -23,7 +23,13 @@ const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, m
 
             {nombre == 'Punto de Venta' && (
                 <p className="my-2 font-inter tracking-wide text-xl ">In collaboration with:
-                    <a href="https://www.papeleriamargo.com" target="_blank" rel="noreferrer" className="font-bold"> papeleriamargo.com</a>
+                    <a href="https://www.papeleriamargo.mx" target="_blank" rel="noreferrer" className="font-bold"> papeleriamargo.mx</a>
+                </p>
+            )}
+
+            {nombre === 'Checador Entrada/Salida' && (
+                <p className="my-2 font-inter tracking-wide text-xl ">In collaboration with:
+                    <a href="https://www.papeleriamargo.mx" target="_blank" rel="noreferrer" className="font-bold"> papeleriamargo.mx</a>
                 </p>
             )}
 

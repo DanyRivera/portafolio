@@ -1,14 +1,13 @@
 [
     {
         "id": 1.2,
-        "img": "/img/barber-system.png",
-        "nombre": "Sistema para Barberías con IA",
-        "node": true,
-        "express": true,
+        "img": "/img/time-app.png",
+        "nombre": "Checador Entrada/Salida",
         "react": true,
         "tailwind": true,
-        "gitHub": "https://github.com/DanyRivera/barber_system_frontend",
-        "link": "https://barber-system.netlify.app"
+        "next": true,
+        "gitHub": "https://github.com/DanyRivera/attendace-app",
+        "link": "https://time-check-app.vercel.app/login"
     },
     {
         "id": 1.2,
@@ -42,7 +41,7 @@
         "react": true,
         "next": true,
         "gitHub": "",
-        "link": "https://www.papeleriamargo.com/"
+        "link": "https://www.papeleriamargo.mx/"
     },
     {
         "id": 1.1,
@@ -97,6 +96,14 @@
         "react": true,
         "gitHub": "https://github.com/DanyRivera/pomme_zacatlan",
         "link": "https://pommezacatlan.com"
+    },
+    {
+        "id": 1.2,
+        "img": "/img/pape-margo.png",
+        "nombre": "Landing de Papelería Margo",
+        "tailwind": true,
+        "gitHub": "https://github.com/DanyRivera/papeleria_margo_landing",
+        "link": "https://www.papeleriamargo.mx"
     },
     {
         "id": 8,
