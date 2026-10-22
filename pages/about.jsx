@@ -13,13 +13,9 @@ const about = () => {
 
                 <div className="px-10 mb-20">
                     <p className="text-[20px] leading-relaxed tracking-wider font-inter md:text-[22px] md:w-3/4 md:mx-auto text-justify">
-                        I’m Dany Rivera, a Frontend Developer and Information Technology student based in Puebla, Mexico. I started learning web development in 2020 and have since turned that interest into professional experience building and maintaining real-world digital products.
+                        I’m Dany Rivera, a Software Developer and Information Technology Engineering student based in Puebla, Mexico. I enjoy turning ideas into practical applications, solving problems, and understanding how different parts of a system work together.
 
-                        I currently work as a Frontend Developer at Klanet, where I contribute to three web platforms using SvelteKit: Klanet Marketplace, Klanet Admin, and My Klanet. Previously, I worked at CAPMEGA developing and maintaining web solutions with Laravel, MySQL, JavaScript, and WordPress.
-
-                        Alongside my professional work, I build independent projects using React, Next.js, Tailwind CSS, and Supabase. I enjoy creating responsive, intuitive interfaces, solving technical problems, and continuously improving the quality of the products I build.
-
-                        I’m currently open to new frontend opportunities where I can contribute to real products, strengthen my React and Next.js expertise, and continue growing as part of a development team.
+                        I’m always looking to deepen my knowledge, explore new technologies, and build useful, intuitive software. I enjoy working with others, sharing ideas, and learning from different perspectives. I value curiosity, open communication, and the opportunity to grow alongside the people I work with.
                     </p>
                 </div>
 

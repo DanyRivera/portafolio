@@ -45,7 +45,7 @@ export default function Home() {
           lg:text-[72px]
         `}
             >
-              Web Developer
+              Software Developer
             </h1>
 
             <p
@@ -57,9 +57,7 @@ export default function Home() {
           md:text-[19px]
         `}
             >
-              I build responsive, user-focused web applications with React and
-              Next.js, backed by professional experience working on real-world
-              digital products.
+              I build intuitive, user-focused applications, backed by professional experience working on real-world digital products.
             </p>
             <Link href="/projects" passHref legacyBehavior>
               <a
