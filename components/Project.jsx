@@ -7,7 +7,7 @@ import styles from "../styles/Projects.module.css";
 const Project = ({ img, nombre, tailwind, react, next, node, express, laravel, mysql, svelte, gitHub, link }) => {
     return (
 
-        <div className="flex flex-col justify-between card mx-auto px-6 mb-16 shadow-2xl">
+        <div className="flex w-full flex-col justify-between card px-6 mb-16 shadow-2xl">
 
             <div className="pt-10 imagen">
                 <Image layout="responsive" width={250} height={150} src={img} alt="Img" />
